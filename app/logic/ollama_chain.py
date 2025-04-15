@@ -5,9 +5,9 @@ from langchain_core.prompts import ChatPromptTemplate
 template = """
 You are a helpful AI that explains human ideas and their relationships.
 
-Here is the question: "{question}"
+Here is the topic: "{question}"
 
-Answer in 1-2 paragraphs, and mention key thinkers, related concepts, and fields.
+Briefly describe the topic in 1-2 sentences, and mention key thinkers or works related to the topic.
 """
 
 model = OllamaLLM(model="llama3")
