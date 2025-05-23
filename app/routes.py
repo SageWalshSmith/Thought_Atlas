@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from app.logic.ollama_chain import generate_idea_summary
+from app.logic.together_chain import generate_idea_summary
 from app.logic.wiki_summary import get_wikipedia_data
 from app.logic.graph_builder import build_concept_graph
 from networkx.readwrite import json_graph

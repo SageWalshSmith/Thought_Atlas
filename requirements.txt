@@ -1,8 +1,6 @@
 fastapi
 uvicorn
-langchain
-langchain-community
-langchain-core
-langchain-ollama
+requests
+python-dotenv
 wikipedia
 networkx
