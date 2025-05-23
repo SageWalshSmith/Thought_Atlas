@@ -1,5 +1,5 @@
 import networkx as nx
-from app.logic.ollama_chain import generate_idea_summary
+from app.logic.together_chain import generate_idea_summary
 
 def build_concept_graph(topic: str, summary: str, related: list[str]) -> nx.Graph:
     G = nx.Graph()
